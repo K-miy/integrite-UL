@@ -1,2 +1,4 @@
+
 # integrite-UL
-En-tête d'examen pour la déclaration d'intégrité. 
+
+Engagement de l'examen pour la déclaration d'intégrité en LaTeX.

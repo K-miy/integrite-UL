@@ -1,0 +1,35 @@
+\documentclass[12pt]{minimal}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{tikz}
+
+
+\begin{document}
+
+\vspace{10cm}
+
+\begin{center}
+
+    \begin{tikzpicture}[remember picture,overlay]
+
+        \node (a) at (-.52\textwidth,-2.5) {};
+        \node (b) at (.52\textwidth,.3) {};
+
+        %shadow
+        \fill[gray!70] (a.south east) rectangle (b.south east);
+        %frame
+        \draw[fill=white,line width=1pt] (a) rectangle (b);
+    \end{tikzpicture}
+
+
+    \textsc{Déclaration d'intégrité}
+    \vspace{.2cm}
+
+    \textbf{Je m'engage à respecter le Règlement disciplinaire à l'intention des étudiants et étudiantes de l'Université Laval}
+    \vspace{.2cm}
+    
+    \textsc{Nom, prénom : }\tikz{\draw[thick] (0,0)--(4,0)} \hfill \textsc{Signature : }\tikz{\draw[thick] (0,0)--(4,0)}
+\end{center}
+
+\end{document}
